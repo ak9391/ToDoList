@@ -11,6 +11,8 @@
 		7039BC0F2A66E72F0023D546 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7039BC0E2A66E72F0023D546 /* ContentView.swift */; };
 		7039BC112A66E7320023D546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7039BC102A66E7320023D546 /* Assets.xcassets */; };
 		7039BC142A66E7320023D546 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7039BC132A66E7320023D546 /* Preview Assets.xcassets */; };
+		7039BC1B2A66E7590023D546 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7039BC1A2A66E7590023D546 /* ToDoItem.swift */; };
+		7039BC1F2A66EA8F0023D546 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7039BC1E2A66EA8F0023D546 /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7039BC0E2A66E72F0023D546 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7039BC102A66E7320023D546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7039BC132A66E7320023D546 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7039BC1A2A66E7590023D546 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		7039BC1E2A66EA8F0023D546 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				7039BC0C2A66E72F0023D546 /* ToDoListApp.swift */,
 				7039BC0E2A66E72F0023D546 /* ContentView.swift */,
+				7039BC1E2A66EA8F0023D546 /* NewToDoView.swift */,
+				7039BC1A2A66E7590023D546 /* ToDoItem.swift */,
 				7039BC102A66E7320023D546 /* Assets.xcassets */,
 				7039BC122A66E7320023D546 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				7039BC0F2A66E72F0023D546 /* ContentView.swift in Sources */,
 				7039BC0D2A66E72F0023D546 /* ToDoListApp.swift in Sources */,
+				7039BC1B2A66E7590023D546 /* ToDoItem.swift in Sources */,
+				7039BC1F2A66EA8F0023D546 /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
